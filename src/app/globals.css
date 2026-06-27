@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+/* Backgrounds */
+--background: #faf8f6;
+--surface: #ffffff;
+
+/* Brand Colors */
+--primary: #e8863a;
+--primary-hover: #d97706;
+
+--secondary: #c9706a;
+--accent: #00a0d3;
+
+/* Text */
+--foreground: #2d211b;
+--muted: #6b5b53;
+
+/* Borders */
+--border: #e7dfd8;
+
+/* Radius */
+--radius: 1rem;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+background: var(--background);
+color: var(--foreground);
+font-family: var(--font-inter), sans-serif;
+overflow-x: hidden;
+text-rendering: optimizeLegibility;
+}
+
+::selection {
+background: var(--primary);
+color: white;
+}
+
+/* Layout */
+.container-custom {
+width: min(1200px, 90%);
+margin-inline: auto;
+}
+
+.section-padding {
+padding-block: clamp(5rem, 8vw, 7rem);
+}
+
+/* Glass Effect */
+.glass {
+background: rgba(255, 255, 255, 0.75);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+}
+
+/* Reusable Transitions */
+
+* {
+  transition-property:
+  color,
+  background-color,
+  border-color,
+  transform,
+  opacity,
+  box-shadow;
+  }
+
+/* Focus States */
+input:focus,
+textarea:focus {
+outline: none;
+}
