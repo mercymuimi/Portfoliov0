@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Mercy Muimi | Full-Stack Developer & UI/UX Designer",
     description:
       "Building modern web applications, API-powered systems, and user-focused digital experiences.",
-    url: "https://your-domain.com",
+    url: "https://portfoliov0-nine.vercel.app/",
     siteName: "Mercy Muimi Portfolio",
     locale: "en_US",
     type: "website",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     follow: true,
   },
 
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://portfoliov0-nine.vercel.app/"),
 };
 
 export default function RootLayout({
