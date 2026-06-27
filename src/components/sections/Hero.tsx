@@ -28,14 +28,15 @@ export default function Hero() {
 
             <FadeUp delay={0.2}>
               <h2 className="mt-4 text-2xl text-(--muted) lg:text-3xl">
-                Hi, I'm Mercy,  UI/UX Designer and full stack developer.
+                Hi, I'm Mercy Muimi.
               </h2>
             </FadeUp>
 
             <FadeUp delay={0.3}>
               <p className="mt-6 text-lg leading-relaxed text-(--muted)">
-                I design and build modern web applications, 
-                and scalable systems that solve real-world problems.
+               I combine UI/UX design and full-stack development to create
+               modern, user-centered digital solutions that solve real-world
+               problems and deliver meaningful experiences.
               </p>
             </FadeUp>
 
@@ -68,11 +69,11 @@ export default function Hero() {
                 duration: 0.8,
                 delay: 0.5,
               }}
-              className="relative h-[420px] w-[320px] overflow-hidden rounded-3xl border border-(--border) bg-white shadow-xl md:h-[500px] md:w-[380px]"
+              className="relative h-105 w-[320px] overflow-hidden rounded-3xl border border-(--border) bg-white shadow-xl md:h-125 md:w-95"
             >
               <Image
                 src="/images/heroimage.jpg"
-                alt="Mercy Muimi"
+                alt="Mercy MUIMI"
                 fill
                 priority
                 className="object-cover"
